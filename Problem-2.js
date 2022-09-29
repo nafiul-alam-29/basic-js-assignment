@@ -5,7 +5,7 @@ function isJavaScriptFile(filename){
     
     const extension = filename.split('.').pop(); // find out the extention
     
-    if(extension ==='js')  //cheacking file extention
+    if(extension ==='js')  //condition for cheacking extention
     {
         return true;
     }
@@ -16,7 +16,7 @@ function isJavaScriptFile(filename){
 
 }
 
-// passing the filename
+
 const isFileTypeJs = isJavaScriptFile('image.js.png');
 console.log(isFileTypeJs);
 
