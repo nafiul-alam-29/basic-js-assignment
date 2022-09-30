@@ -21,16 +21,11 @@ function publicBusFare(people)
 
     // final output for public bus fare
 
-    if(busCost ===0)
-    {
-        console.log("good news no one have to travel with Public Bus");
-    }
-
     return busCost;
     
 
 
 }
 
-const costForPublicBus = publicBusFare(50);
+const costForPublicBus = publicBusFare(117);
 console.log(costForPublicBus);
