@@ -11,5 +11,5 @@ function oilPrice(dieselQuantity, petrolQuantity, OctaneQuantity)
     return totalPrice;
 }
 
-const oilCost = oilPrice(30,20,10);
+const oilCost = oilPrice(0,0,30);
 console.log(oilCost);
